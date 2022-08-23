@@ -7,29 +7,19 @@
 - Также есть возможность установить имя, которое видят ваши соперники
 - Если соперник сменит своё имя во время игры, вы сразу увидите его новое имя
 - В приложении отображается количество подключенных пользователей (онлайн), а также количество пользователей, которые сейчас играют
-- При запуске приложения происходит проверка обновления (далее можно проверить вручную, нажав на кнопку в сайдбаре), если обнаружено обновление, приложение предложить установить его, скачивание нового приложения и проверка на обновления происходит через тот же сервер, на котором работает игра
+- При запуске приложения происходит проверка обновлений (далее можно проверить вручную, нажав на кнопку в сайдбаре), если обнаружено обновление, приложение предложит установить его, скачивание нового приложения и проверка на обновления происходит через тот же сервер, на котором работает игра
 - При включении чек-бокса "сохранять имя" в сайдбаре, приложение будет автоматически при запуске отправлять на сервер последнее сохранённое имя (на сервере имя не сохраняется, на сервере вообще ничего не хранится)
 
 #### О фичах
-- Контейнер, который отображает подключение к серверу или показывает неуспешное соединение, является шапкой домашнего экрана (на котором подключение установлено) - при успешном подключении содержимое <ins>**экрана**</ins> загрузки сжимается в шапку и <ins>**его**</ins> контент меняется на шапку с надписью "соединение установлено", также он разжимается обратно при потере соединения и показывает контейнер с надписью "соединение потеряно"
-- Ввод кода друга реализован ввидн OTP скрина
+- Контейнер, который отображает подключение к серверу или показывает неуспешное соединение, является шапкой домашнего экрана (на котором подключение установлено) - при успешном подключении содержимое <ins>**экрана**</ins> загрузки сжимается в шапку и <ins>**его**</ins> контент меняется на шапку с надписью "соединение установлено", также он разжимается обратно при потере соединения и показывает контейнер с надписью "соединение потеряно" (да, ничего непонятно)
+- Ввод кода друга реализован ввиде OTP экрана
 - Кнопка отправки нового имени меняется плавно на другие (сперва на загрузку, затем на зеленую галочку в случае успешной смены имени или красный крестик в случае неуспешной смены имени)
 - Счётчик онлайна в шапке меняется анимировано
 - Крестики и нолики рисуются (анимировано) на экране
 - Анимированный снек-бар показывает все ошибки прилетающие с сервера
 
 #### Скриншоты
-<img src="/assets/screenshots/connecting.jpg" alt="connecting" width="200"/>
-<img src="/assets/screenshots/error_check_update.jpg" alt="error_check_update" width="200"/>
-<img src="/assets/screenshots/failed_to_connect.jpg" alt="failed_to_connect" width="200"/>
-<img src="/assets/screenshots/home_page.jpg" alt="home_page" width="200"/>
-<img src="/assets/screenshots/side_bar.jpg" alt="side_bar" width="200"/>
-<img src="/assets/screenshots/error1.jpg" alt="error1" width="200"/>
-<img src="/assets/screenshots/error2.jpg" alt="error2" width="200"/>
-<img src="/assets/screenshots/we_are_invited.jpg" alt="we_are_invited" width="200"/>
-<img src="/assets/screenshots/game.jpg" alt="game" width="200"/>
-<img src="/assets/screenshots/win.jpg" alt="win" width="200"/>
-<img src="/assets/screenshots/connection_lost.jpg" alt="connection_lost" width="200"/>
+<img src="/assets/screenshots/connecting.jpg" alt="connecting" width="200"/> <img src="/assets/screenshots/error_check_update.jpg" alt="error_check_update" width="200"/> <img src="/assets/screenshots/failed_to_connect.jpg" alt="failed_to_connect" width="200"/> <img src="/assets/screenshots/home_page.jpg" alt="home_page" width="200"/> <img src="/assets/screenshots/side_bar.jpg" alt="side_bar" width="200"/> <img src="/assets/screenshots/error1.jpg" alt="error1" width="200"/> <img src="/assets/screenshots/error2.jpg" alt="error2" width="200"/> <img src="/assets/screenshots/we_are_invited.jpg" alt="we_are_invited" width="200"/> <img src="/assets/screenshots/game.jpg" alt="game" width="200"/> <img src="/assets/screenshots/win.jpg" alt="win" width="200"/> <img src="/assets/screenshots/connection_lost.jpg" alt="connection_lost" width="200"/>
 
 #### Используемые библиотеки (основные)
 - **flutter_svg**
