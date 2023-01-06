@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Config {
   static const serverDev = false;
-  static const prodServerHost = 'http://194.87.144.241';
+  static const prodServerHost = 'http://213.226.114.56';
   static const devServerHost = 'http://192.168.0.13';
 
   static const serverUrl =
